@@ -473,7 +473,7 @@ function openFullScreenImage(src, text) {
     const whatsappButton = document.createElement('a');
     whatsappButton.className = 'whatsapp_button';
     whatsappButton.innerText = 'إرسال هذا العرض';
-    whatsappButton.href = `https://wa.me/+966560378994?text=طلب%20حجز%20هذا%20العرض:%0Ahttps://mohammed-website.github.io/aljumantravel/${encodeURIComponent(src)}`;
+    whatsappButton.href = `https://wa.me/+966560378994?text=طلب%20حجز%20هذا%20العرض:%0A%0Ahttps://mohammed-website.github.io/aljumantravel/${encodeURIComponent(src)}`;
     fullScreenDiv.appendChild(whatsappButton);
 
     // Close on background click
