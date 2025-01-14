@@ -56,23 +56,17 @@ window.addEventListener('scroll', () => {
 /* Switching words functionality */
 document.addEventListener("DOMContentLoaded", function () {
     const words = [
-        "إندونيسيا",
+        "رحلات سياحية",
+        "لندن",
         "تايلاند",
-        "المالديف",
-        "موريشيوس",
-        "عروض سياحية",
-        "جورجيا",
         "تركيا",
-        "اذربيجان",
-        "البوسنة",
         "سيريلانكا",
         "ماليزيا",
-        "دبي",
-        "مصر",
-        "الجبل الأسود",
-        "ياس ايلاند",
-        "اسطنبول",
-        "الدوحة",
+        "فيتنام",
+        "سنغافورة",
+        "اذربيجان",
+        "اوزباكستان",
+        "عروض سياحية",
     ];
 
     let currentIndex = 1;
@@ -355,6 +349,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // create all offers content functionality
 const sectionData = [
+    {
+        title: 'عروض لندن',
+        image_1: ['عروض-شركة-الجمان/عروض-لندن/عرض-لندن-1.jpg', 'شنغماي - بانكوك'],
+        image_2: ['عروض-شركة-الجمان/عروض-لندن/عرض-لندن-2.jpg', 'شنغماي - بانكوك'],
+    },
+
     {
         title: 'عروض تايلاند',
         image_1: ['عروض-شركة-الجمان/عروض-تايلاند/عرض-تايلاند-1.jpg', 'شنغماي - بانكوك'],
